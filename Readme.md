@@ -40,6 +40,7 @@ API
 tabMan('#tab');
 ```
 
+```
 /**
  * .on
  * 绑定事件，事件目前可以是changeTab、forecast
@@ -51,6 +52,8 @@ tabMan('#tab')
 	.on('forecast', function (e, tabId) {
 		// render
 	});
+```
+
 ```
 /**
  * all
